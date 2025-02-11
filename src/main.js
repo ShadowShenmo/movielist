@@ -1,10 +1,9 @@
-import Vue from 'vue';
+// main.js
+import { createApp } from 'vue';
 import App from './App.vue';
-import router from './router';
+import router from './router/index';
+import 'uno.css'; // 引入 UnoCSS 样式
 
-Vue.config.productionTip = false;
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app');
+const app = createApp(App);
+app.use(router);
+app.mount('#app');

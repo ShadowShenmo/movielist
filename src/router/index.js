@@ -1,8 +1,6 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+// router/index.js
+import { createRouter, createWebHistory } from 'vue-router';
 import MovieList from '../components/MovieList.vue';
-
-Vue.use(VueRouter);
 
 const routes = [
   {
@@ -12,7 +10,8 @@ const routes = [
   }
 ];
 
-const router = new VueRouter({
+const router = createRouter({
+  history: createWebHistory(),
   routes
 });
 
