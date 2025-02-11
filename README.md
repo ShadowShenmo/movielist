@@ -1,24 +1,12 @@
-# movie-list-app
+# Movie List App
 
-## Project setup
-```
-npm install
-```
+这是一个简单的 Vue.js 电影列表展示应用，具备展示电影信息和搜索电影的功能。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能特点
+- 展示电影列表
+- 支持电影搜索
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 安装步骤
+1. 克隆项目到本地：
+```bash
+git clone <项目仓库地址>
